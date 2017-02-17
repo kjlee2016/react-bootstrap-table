@@ -333,6 +333,7 @@ class BootstrapTable extends Component {
       <div className={ classSet('react-bs-table-container', this.props.containerClass) }
         style={ this.props.containerStyle }>
         { toolBar }
+        { pagination }
         <div ref='table'
             className={ classSet('react-bs-table', this.props.tableContainerClass) }
             style={ { ...style, ...this.props.tableStyle } }

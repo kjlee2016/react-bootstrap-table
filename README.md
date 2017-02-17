@@ -53,6 +53,14 @@ $ git clone https://github.com/AllenFang/react-bootstrap-table.git
 $ cd react-bootstrap-table
 $ npm install
 ```
+
+Use gulp to build the react-bootstrap-table
+```bash
+$ gulp dev  #for development
+$ gulp example-server #see all examples, go to localhost:3004
+$ gulp prod #for production
+```
+
 See the examples for `react-bootstrap-table`
 ```bash
 $ npm start # see all examples, go to localhost:3004
