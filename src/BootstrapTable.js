@@ -390,7 +390,7 @@ class BootstrapTable extends Component {
             beforeShowError={ this.props.options.beforeShowError } />
         </div>
         { tableFilter }
-        { pagination }
+        {/* { pagination } */}
       </div>
     );
   }

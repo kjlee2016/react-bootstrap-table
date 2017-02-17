@@ -652,8 +652,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	            onExpand: this.handleExpandRow,
 	            beforeShowError: this.props.options.beforeShowError })
 	        ),
-	        tableFilter,
-	        pagination
+	        tableFilter
 	      );
 	    }
 	  }, {
